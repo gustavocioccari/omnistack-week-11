@@ -1,0 +1,30 @@
+﻿MÉTODOS HTTP:
+* GET: Buscar/listar informações do backend
+* POST: Criar informações no backend
+* PUT: Alterar informações no backend
+* DELETE: Remover informações do backend
+TIPOS DE PARÂMETROS:
+* Query Params: Parâmetros nomeados enviados na rota após “?” e servem para filtros, paginação. Ex: http://localhost:3333/users?page=2&name=Gustavo
+* Route Params: Parâmetros utilizados para identificar recursos
+* Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+BANCOS DE DADOS:
+* SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+* NoSQL: MongoDB, CouchDB, etc.
+   * Busca em bancos:
+      * Driver: SELECT * FROM users
+      * Query Builder: table(‘users’).select(‘*’).where() (linguagem JS)
+
+
+INICIANDO O PROJETO
+* ENTIDADES:
+   * NGO (ONGs);
+   * Incidents (casos)
+* FUNCIONALIDADES:
+   * Login de ONG (backend);
+   * Logout de ONG (frontend);
+   * Cadastro de ONG (backend);
+   * Cadastro de novos casos (backend);
+   * Excluir casos (backend);
+   * Listar casos específicos de uma ONG (backend);
+   * Listar todos os casos (backend);
+   * Entrar em contato com a ONG (frontend).
